@@ -28,7 +28,7 @@ BOOKINGS_FILE = os.path.join(os.path.dirname(__file__), "bookings.json")
 
 _storage_lock = threading.Lock()
 
-
+# test comment
 # Класс Booking описывает одну подтвержденную запись на приём.
 # Экземпляры сохраняются в JSON как bookings[DD-MM-YYYY][HH:MM].
 # Поля включают данные пользователя, дату/время приёма и штамп создания
