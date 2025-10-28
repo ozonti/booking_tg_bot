@@ -1,0 +1,11 @@
+# Virtual env
+.venv/
+
+# Secrets (локальные только)
+secrets.py
+
+# Runtime data
+bookings.json
+__pycache__/
+*.pyc
+
