@@ -1,25 +1,5 @@
 ### Telegram бот записи к стоматологу (монолит)
 
-#### Быстрый старт
-- Создайте бота в Telegram через `@BotFather` и получите токен.
-- Установите зависимости:
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-- Установите переменную окружения `TELEGRAM_BOT_TOKEN` и запустите:
-```bash
-export TELEGRAM_BOT_TOKEN=123456:ABC...
-python bot.py
-```
-
-Или используйте локальный файл секретов (удобно для разработки):
-
-1. Скопируйте `secrets.example.py` в `secrets.py`.
-2. Заполните значение `TELEGRAM_BOT_TOKEN` в `secrets.py`.
-3. Запустите `python bot.py` — бот возьмёт токен из `secrets.py`.
-
 #### Функции
 - **/book**: запись на приём (дата → время → ФИО → телефон → подтверждение).
 - **/mybookings**: показать будущие записи пользователя.
